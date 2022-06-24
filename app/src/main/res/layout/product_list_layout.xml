@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="92dp"
+        android:layout_weight="1"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_launcher_foregroundnew"
+        android:id="@+id/imageViewPhoto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Name"
+            android:id="@+id/textViewName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Price"
+            android:id="@+id/textViewPrice"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonBuyNow"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/cart"
+                android:text="Buy Now"
+                android:scaleType="fitCenter"/>
+
+            <Button
+                android:id="@+id/buttonDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                android:layout_weight="1"
+                android:text="Detail"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

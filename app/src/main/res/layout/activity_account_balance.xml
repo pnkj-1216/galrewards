@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AccountBalance">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance As On Date"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bonus Point "
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAccountBonusPoint"
+            android:layout_marginLeft="45dp"
+            android:editable="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Points"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAccountPoint"
+            android:layout_marginLeft="85dp"
+            android:editable="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Order Point"
+        android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAccountOrderPoint"
+            android:layout_marginLeft="53dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+    <TextView
+                   android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Closing Balance"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAccountClosingBalance"
+        android:layout_marginLeft="24dp"
+        android:editable="false"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:background="#d4d4d4"
+        android:hint="Select Date..."
+        android:padding="15dp"
+        android:textColor="#897"
+        android:textColorHint="#090"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Detail"
+        android:id="@+id/btndetailaccount"/>
+
+</LinearLayout>
+
+
+
+

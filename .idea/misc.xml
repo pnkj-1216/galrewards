@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/drawable/button.xml" value="0.14479166666666668" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/drawable/buttonbuynow.xml" value="0.1" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/drawable/cart.xml" value="0.1" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/drawable/edittext_bg.xml" value="0.14791666666666667" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/actionbar_badge_layout.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_about_us.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_account_balance.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_app_main_screen.xml" value="0.16" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_best_selling_product.xml" value="0.16" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_billing_address_screen_for_order_place.xml" value="0.103125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_cart.xml" value="0.3058252427184466" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_computing.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_dynamic_category.xml" value="0.1" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_dynamic_order_history.xml" value="0.1814814814814815" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_dynamic_order_status_with_invoice.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_dynamicategory.xml" value="0.25" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_gaming.xml" value="0.1296875" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_healthn_beauty.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_help.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_language_select.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_latest_add_to_cart_code.xml" value="0.1" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_latest_product_code.xml" value="0.1125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_my_ticket_list.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_new_dynamic_home_page.xml" value="0.18704710144927536" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_new_password_screen.xml" value="0.176" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_new_product_code_for_cart.xml" value="0.20153985507246377" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order.xml" value="0.23598130841121495" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order_invoice3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order_invoice4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order_invoice5.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order_invoice6.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_order_status_with_invoice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_orderinvoice2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_orderinvoice7.xml" value="0.4" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_orderinvoice8.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_orderinvoice9.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_product.xml" value="0.25" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_profile.xml" value="0.30092592592592593" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_raise_anew_ticket.xml" value="0.24010416666666667" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_revolving_image.xml" value="0.22644927536231885" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_screen_slide.xml" value="0.1296875" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_search_bar1.xml" value="0.15677083333333333" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_searchable.xml" value="0.253125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_shopping_cart.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_slide_screen.xml" value="0.1296875" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_slider.xml" value="0.16" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_slider2.xml" value="0.13125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_ticket_view.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/activity_vouchers.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/app_bar_app_main_screen.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/badge_icon_layout.xml" value="0.1125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/content_app_main_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/custom_layout.xml" value="0.13125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/dialog_item_quantity_update.xml" value="0.16799999999999998" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/header_lay.xml" value="0.3449074074074074" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/invoicedetail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/item.xml" value="0.1296875" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/item_bestseal.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/item_list_category.xml" value="0.4" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/item_list_product.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/layout_header.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/list_row.xml" value="0.16799999999999998" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/nav_header_app_main_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/orderinvoicestatusxml.xml" value="0.16799999999999998" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/product_adapter_layout.xml" value="0.1125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/product_item.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/product_list_layout.xml" value="0.20153985507246377" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/revolvingcustom_list_layout.xml" value="0.22644927536231885" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_billingaddress.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_cart.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_item.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_itemaccount.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_itemnew.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_profile.xml" value="0.4" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_ticketlist.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/single_ticketlistdetail.xml" value="0.20969202898550723" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/singleitemlayout.xml" value="0.264" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/slideextraimagelayout.xml" value="0.12864583333333332" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/toolbar.xml" value="0.1125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/toolbarnew.xml" value="0.1125" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/layout/user_list_items.xml" value="0.4" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/menu/app_main_screen.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/menu/menu_main.xml" value="0.2" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/menu/new_app_screen_updated.xml" value="0.25416666666666665" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18425925925925926" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18425925925925926" />
+        <entry key="..\:/Galrewardsfinal/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

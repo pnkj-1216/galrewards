@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/menu"
+            android:visibility="visible"/>
+
+
+        <TextView
+            android:id="@+id/txt_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="GalRewards"
+            android:textColor="#FFBD31"
+            android:textSize="30sp" />
+
+
+
+        <FrameLayout
+            android:id="@+id/fm_card"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:focusable="true">
+
+           
+            <ImageView
+                android:id="@+id/img_basket"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/newcart"
+                android:visibility="visible" />
+
+
+
+
+            <TextView
+                android:id="@+id/counter_value"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:background="@drawable/cart"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

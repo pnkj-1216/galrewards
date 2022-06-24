@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main_cartimgpro"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="4dp"
+        android:padding="3dp"
+        android:visibility="visible"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Name :"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_cartproname"
+            android:layout_marginLeft="74dp"
+            android:editable="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Point : "
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/main_cartpropoint"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="72dp"
+            android:editable="false" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Qty:"
+            android:layout_marginLeft="15dp"
+            android:visibility="visible"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_cartprostatus"
+            android:layout_marginLeft="142dp"
+            android:editable="false"
+            android:visibility="visible"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Total :"
+            android:layout_marginLeft="15dp"
+            android:visibility="visible"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_cartprototal"
+            android:layout_marginLeft="78dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:id="@+id/itemremove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:clickable="true"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:backgroundTint="#FFC300"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="100dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/productremove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:gravity="center"
+                android:text="Remove"
+                android:textColor="#000"
+                android:layout_marginLeft="120dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addcheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:clickable="true"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:backgroundTint="#FFC300"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="30dp"
+                android:maxWidth="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/checkoutitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingRight="30dp"
+                android:layout_marginLeft="100dp"
+                android:gravity="center"
+                android:text="Proceed To Buy"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

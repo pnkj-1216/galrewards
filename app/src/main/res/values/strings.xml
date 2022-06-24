@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GalRewards</string>
+    <string name="title_activity_app_main_screen" translatable="false">AppMainScreenActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Add To Cart</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Electronics</string>
+    <string name="menu_slideshow" translatable="false">Phones And Tablets</string>
+    <string name="android" translatable="false">Android</string>
+    <string name="java" translatable="false">Java</string>
+    <string name="php" translatable="false">PHP</string>
+    <string name="python" translatable="false">Python</string>
+    <string name="title_activity_new_app_screen_updated" translatable="false">NewAppScreenUpdated</string>
+
+
+    <string name="login">Login</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="forgatpassword">ForgatPassword</string>
+    <string name="changeLang">ChangeLanguage</string>
+    <string name="enteryouremailaddress">EnterYourEmailAddess</string>
+    <string name="agmaillinkissendtoagentuserforpasswordreset">AGmailLinkIsSendToAgent/UserForPasswordReset</string>
+    <string name="gmaillink">GmailLink</string>
+    <string name="afterclickingongmaillinkthepasswordscreendisplay">AfterClickOnGmailLinkThePasswordScreenDisplay</string>
+    <string name="newpassword">NewPassword</string>
+    <string name="confirmpassword">ConfirmPassword</string>
+    <string name="appscreen">AppScreen</string>
+    <string name="search">search</string>
+    <string name="categories">categories</string>
+    <string name="phonesandtablets">phonesandtablets</string>
+    <string name="healthandbeauty">healthandbeauty</string>
+    <string name="electronics">electronics</string>
+    <string name="computing">computing</string>
+    <string name="gaming">gaming</string>
+    <string name="vouchers">vouchers</string>
+    <string name="logout">logout</string>
+    <string name="revolvingimage">revolvingimage</string>
+    <string name="bestsellingproduct">bestsellingproduct</string>
+    <string name="home">home</string>
+    <string name="dealoftheday">dealoftheday</string>
+    <string name="account">account</string>
+    <string name="help">help</string>
+    <string name="orderedhistory">orderhistory</string>
+    <string name="saveditems">saveditems</string>
+    <string name="pointsstatement">pointsstatement</string>
+    <string name="pointsearned">pointsearned</string>
+    <string name="pointsusedforproductsorder">pointsusedforproductsorder</string>
+    <string name="pointsaddedbackforreturneditems">pointsaddedbackforreturneditems</string>
+    <string name="closingbalance">closingbalance</string>
+    <string name="pointscreditforthemonth">pointscreditforthemonth</string>
+    <string name="mytickets">mytickets</string>
+    <string name="raiseanewticket">raiseanewticket</string>
+    <string name="needassistanceform">needassistanceform</string>
+    <string name="select">select</string>
+    <string name="desiredrewardsnotavailableinitems">desiredrewardsnotavailableinitems"</string>
+    <string name="discrepancyinpointsearned">discrepancyinpointsearned</string>
+    <string name="itemnotdeliveredwrongitemdelivered">itemnotdeliveredwrongitemdelivered</string>
+    <string name="other">other</string>
+    <string name="pleaseelaborateyourproblem">pleaseelaborateyourproblem</string>
+
+    <string name="app_namen">AddToCart</string>
+    <string name="cart_Pagen">Cart Page</string>
+
+
+</resources>

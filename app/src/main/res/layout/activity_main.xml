@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fcf7ee">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/galrewardsapplog"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="1dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="GalRewards"
+        android:textSize="28sp"
+        android:textColor="#000"
+        android:visibility="gone"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/email_password_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+            <EditText
+                android:id="@+id/etusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColorHighlight="#000000"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColorHint="#B9B8B8"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="textPassword"
+                android:padding="1dp"
+                android:textSize="18sp"
+                app:passwordToggleEnabled="true"
+                android:textColorHighlight="#000000"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/saveLoginCheckBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_alignParentLeft="true"
+            android:text="Save Login?"
+            android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/idTVResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Response"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+
+    <!--progress bar for loading -->
+    <ProgressBar
+        android:id="@+id/idLoadingPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="10dp"
+        android:text="Sign In"
+        android:textColor="#fcf7ee"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/idrememberpassword"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_below="@+id/btn_email_sign_in"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            android:textColor="#0A121A"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:id="@+id/rememberbtn"
+            android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/idforgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="240dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/helloworld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select A Language To Use App"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+        <RelativeLayout
+            android:id="@+id/showlangdialog"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/edittext_bg"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/dialog_language"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:dropDownVerticalOffset="35dp"
+                android:gravity="center"
+                android:popupBackground="@color/purple_200"
+                android:text="English"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/drop"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

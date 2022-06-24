@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.galrewardsfinal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.galrewardsfinal.LatestProductCode"
+        android:label="Products"
+        tools:layout="@layout/activity_latest_product_code" />
+
+
+    <activity
+        android:id="@+id/nav_galleryPrev"
+        android:name="com.example.galrewardsfinal.DynamicCategory"
+        android:label="Products"
+        tools:layout="@layout/activity_dynamicategory"/>
+
+    <activity
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.galrewardsfinal.ProductActivity"
+        android:label="Categories"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/nav_orderhistory"
+        android:name="com.example.galrewardsfinal.DynamicOrderHistory"
+        android:label="Order History"
+        tools:layout="@layout/activity_dynamic_order_history" />
+    <activity
+        android:id="@+id/nav_bestdeal"
+        android:name="com.example.galrewardsfinal.BestSellingProductActivity"
+        android:label="Best Selling Product"
+        tools:layout="@layout/activity_best_selling_product" />
+    <activity
+        android:id="@+id/nav_vouchers"
+        android:name="com.example.galrewardsfinal.VouchersActivity"
+        android:label="Vouchers"
+        tools:layout="@layout/activity_vouchers"/>
+
+    <activity
+        android:id="@+id/nav_cart"
+        android:name="com.example.galrewardsfinal.LatestAddToCartCode"
+        android:label="Cart Item List"
+        tools:layout="@layout/activity_latest_add_to_cart_code"/>
+
+    <activity
+        android:id="@+id/nav_health"
+        android:name="com.example.galrewardsfinal.CartActivity"
+        android:label="Health Beauty"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.example.galrewardsfinal.ProfileActivity"
+        android:label="Profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/nav_account"
+        android:name="com.example.galrewardsfinal.AccountBalance"
+        android:label="Account Balance"
+        tools:layout="@layout/activity_account_balance" />
+
+    <activity
+        android:id="@+id/nav_ticket"
+        android:name="com.example.galrewardsfinal.RaiseANewTicket"
+        android:label="Account Balance"
+        tools:layout="@layout/activity_account_balance" />
+
+    <activity
+        android:id="@+id/nav_help"
+        android:name="com.example.galrewardsfinal.MyTicketList"
+        android:label="Help"
+        tools:layout="@layout/activity_my_ticket_list" />
+
+    <activity
+        android:id="@+id/nav_slide"
+        android:name="com.example.galrewardsfinal.SliderActivity"
+        android:label="Slide"
+        tools:layout="@layout/activity_slider" />
+
+    <activity
+        android:id="@+id/nav_about"
+        android:name="com.example.galrewardsfinal.AboutUs"
+        android:label="About Us"
+        tools:layout="@layout/activity_about_us"/>
+
+
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.example.galrewardsfinal."
+        android:label="Logout"
+        tools:layout="@layout/activity_main"/>
+
+    <activity
+        android:id="@+id/nav_newproduct"
+        android:name="com.example.galrewardsfinal."
+        android:label="New Product"
+        tools:layout="@layout/activity_new_product_code_for_cart" />
+
+</navigation>

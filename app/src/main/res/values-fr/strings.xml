@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GalRewards</string>
+
+    <string name="login">Connexion</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="submit">nous faire parvenir</string>
+    <string name="forgatpassword">ForgatMot de passe</string>
+    <string name="changeLang">Changer de langue</string>
+    <string name="enteryouremailaddress">Entrez votre adresse emai</string>
+    <string name="agmaillinkissendtoagentuserforpasswordreset">Un lien Gmail est envoyé à lutilisateur de lagent pour la réinitialisation du mot de passe</string>
+    <string name="gmaillink">Lien Gmail</string>
+    <string name="afterclickingongmaillinkthepasswordscreendisplay">Après avoir cliqué sur le lien Gmail, lécran du mot de passe saffiche</string>
+    <string name="newpassword">nouveau mot de passe</string>
+    <string name="confirmpassword">Confirmez le mot de passe</string>
+    <string name="appscreen">écran dapplication</string>
+    <string name="search">chercher</string>
+    <string name="categories">catégories</string>
+    <string name="phonesandtablets">téléphones et tablettes</string>
+    <string name="healthandbeauty">santé et beauté</string>
+    <string name="electronics">électronique</string>
+    <string name="computing">linformatique</string>
+    <string name="gaming">jeu</string>
+    <string name="vouchers">pièces justificatives</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="revolvingimage">image tournante</string>
+    <string name="bestsellingproduct">produit le plus vendu</string>
+    <string name="home">domicile</string>
+    <string name="dealoftheday">l affaire du jour</string>
+    <string name="account">Compte</string>
+    <string name="help">aider</string>
+    <string name="orderedhistory">histoire ordonnée</string>
+    <string name="saveditems">éléments enregistrés</string>
+    <string name="pointsstatement">relevé de points</string>
+    <string name="pointsearned">points gagnés</string>
+    <string name="pointsusedforproductsorder">pointsutiliséspourcommandedeproduits</string>
+    <string name="pointsaddedbackforreturneditems">pointsajoutéspourrenvoyésarticlesmodifiés</string>
+    <string name="closingbalance">solde de clôture</string>
+    <string name="pointscreditforthemonth">crédit de points pour le mois</string>
+    <string name="mytickets">mes billets</string>
+    <string name="raiseanewticket">lever un nouveau ticket</string>
+    <string name="needassistanceform">formulaire besoin d aide</string>
+    <string name="select">sélectionner</string>
+    <string name="desiredrewardsnotavailableinitems">récompenses souhaitéesnon disponible danslarticle</string>
+    <string name="discrepancyinpointsearned">Écart dans les points gagnés</string>
+    <string name="itemnotdeliveredwrongitemdelivered">Article non livré/Mauvais article livré</string>
+    <string name="other">autre</string>
+    <string name="pleaseelaborateyourproblem">Merci de préciser votre problème</string>
+</resources>

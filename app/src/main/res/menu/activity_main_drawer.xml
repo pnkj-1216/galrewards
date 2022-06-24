@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/galrewardshome"/>
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Categories"
+            android:icon="@drawable/categoryicon"
+            android:visible="true"/>
+
+        <item
+            android:id="@+id/nav_slide"
+            android:title="Slide"
+            android:icon="@drawable/images"/>
+
+        <item
+            android:id="@+id/nav_galleryPrev"
+            android:title="Products"
+            android:icon="@drawable/productgalrewards"/>
+
+        <item
+            android:id="@+id/nav_orderhistory"
+            android:title="Order History"
+            android:icon="@drawable/galrewardsorderhistory"/>
+
+        <item
+            android:id="@+id/nav_bestdeal"
+            android:title="Best Selling Product"
+            android:icon="@drawable/galrewardsbestselling"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/galrewardsprofile"/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:title="Account Balance"
+            android:icon="@drawable/galrewardsaccoutbalance"/>
+
+        <item
+            android:id="@+id/nav_cart"
+            android:title="Cart Item List"
+            android:icon="@drawable/galrewrdscartlist"/>
+
+        <item
+            android:id="@+id/nav_ticket"
+            android:title="Raise A New Ticket"
+            android:icon="@drawable/galrewardsraiseticket"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title=" My Tickets"
+            android:icon="@drawable/myticketgalrewards"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us"
+            android:icon="@drawable/aboutus"/>
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/galrewrdslogout"/>
+
+
+        <item
+            android:id="@+id/nav_newproduct"
+            android:title="New Product"
+            android:visible="false"/>
+
+
+        <item
+            android:id="@+id/nav_health"
+            android:title="Health Beauty"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_comput"
+            android:title="Computing"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_game"
+            android:title="Gaming"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_vouchers"
+            android:title="Vouchers"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_sports"
+            android:title="Sports"
+            android:visible="false"/>
+
+    </group>
+</menu>

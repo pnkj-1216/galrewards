@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Best Selling Product"
+            android:textAlignment="center"
+            android:layout_marginLeft="150dp"/>
+
+
+        <com.jsibbold.zoomage.ZoomageView
+            android:id="@+id/myZoomageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/images"
+            app:zoomage_restrictBounds="false"
+            app:zoomage_animateOnReset="true"
+            app:zoomage_autoResetMode="UNDER"
+            app:zoomage_autoCenter="true"
+            app:zoomage_zoomable="true"
+            app:zoomage_translatable="true"
+            app:zoomage_minScale="0.6"
+            app:zoomage_maxScale="8"
+            tools:ignore="MissingClass" />
+
+
+        <ImageView
+            android:id="@+id/main_imgbest"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:padding="3dp"
+            android:visibility="visible"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_titlebest"
+            android:layout_marginLeft="70dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Points"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_ratingbest"
+            android:layout_marginLeft="120dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/main_catybest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CategoriesName"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/main_countrybest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CountryName"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/main_yearbest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/main_specialbest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Special"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</ScrollView>

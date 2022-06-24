@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.galrewardsfinal">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/galrewardsapplog"
+        android:label="GalRewards"
+        android:roundIcon="@drawable/galrewardsapplog"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Galrewardsfinal"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DynamicOrderStatusWithInvoice"/>
+        <activity android:name=".MyTicketList"/>
+        <activity android:name=".LatestAddToCartCode"/>
+        <activity
+            android:name=".LatestProductCode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RevolvingImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DynamicOrderHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dynamicategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DynamicCategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BestSellingProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchBarActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewDynamicHomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LanguageSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SliderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShoppingCart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VouchersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RaiseANewTicket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewPasswordScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountBalance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppMainScreenActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Galrewardsfinal.NoActionBar" />
+        <activity
+            android:name=".NewProductCodeForCart"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

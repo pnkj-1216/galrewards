@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Sort By Points:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.appyvet.materialrangebar.RangeBar
+        android:id="@+id/rangebar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/checkbox"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        app:mrb_pinMaxFont="10sp"
+        app:mrb_pinRadius="20dp"
+        app:mrb_pinTextColor="#ACD123"
+        app:mrb_rangeBarPaddingBottom="12dp"
+        app:mrb_selectorBoundaryColor="@color/colorPrimary"
+        app:mrb_selectorBoundarySize="2dp"
+        app:mrb_selectorSize="10dp"
+        app:mrb_tickEnd="10000"
+        app:mrb_tickInterval="1"
+        app:mrb_tickStart="1" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rangebar">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="Cancel"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/done_button"
+            android:text="Done"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+<ViewFlipper
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/main_imgpro"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:text="Image"
+        android:visibility="visible"
+        android:layout_marginLeft="20dp"/>
+</ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Product ID"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/main_productid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="72dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Product Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_titlepro"
+            android:layout_marginLeft="50dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Product Points"
+            android:textStyle="bold" />
+
+        <EditText
+        android:id="@+id/main_ratingpro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="48dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Qty"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/main_qtypro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="48dp"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Product Category"
+            android:textStyle="bold" />
+        <EditText
+        android:id="@+id/main_catypro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:visibility="visible"
+            android:editable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Available Country"
+            android:textStyle="bold" />
+
+        <EditText
+        android:id="@+id/main_countrypro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:visibility="visible"
+            android:editable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Quantity"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/main_quantitypro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:visibility="visible"
+            android:text="1"
+            android:editable="false"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:id="@+id/btnbuynowproduct"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFC300"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C9C231"
+        android:text="Add to Cart"
+        android:id="@+id/btnaddtocart"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/main_yearpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/main_specialpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Special"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "422296519062",
+    "project_id": "finalgalrewardsforgotpassword",
+    "storage_bucket": "finalgalrewardsforgotpassword.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422296519062:android:335474cb5290cf7318ddb7",
+        "android_client_info": {
+          "package_name": "com.example.galrewardsfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422296519062-93rhtshvndtpaql3t8cbn1stehtul2ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.galrewardsfinal",
+            "certificate_hash": "09d1faa45df24d84090949ff327a65154dc144dc"
+          }
+        },
+        {
+          "client_id": "422296519062-79u5nt7o0h86t6e6ak0iv8ij5vhrg0ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTMWSn7JDUgUDwNjqxaub904UNlBqSqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422296519062-79u5nt7o0h86t6e6ak0iv8ij5vhrg0ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

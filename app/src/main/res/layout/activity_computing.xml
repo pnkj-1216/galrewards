@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/text_com2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/usb"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Synqe USB Type Headset"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points:30"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartcomputnew1"
+            android:layout_marginLeft="5dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/text_com1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/computingnew"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iBall EarWear Sporty Wireless Bluetooth in Ear Headset with"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points:10"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartcomputnew"
+            android:layout_marginLeft="5dp"/>
+
+
+
+
+        <ImageView
+        android:id="@+id/text_com"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/computing"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Renewed) Dell Optiplex 380 17 inch"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Points:100"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartcomput"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/etcomput"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:inputType="number"
+            android:layout_marginLeft="35dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/text_slideshowcom"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HP 15 Thin And Light 11th Gen Intel Core i5"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Points:90"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartcomput2"
+        android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/etcomputqty"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:inputType="number"
+            android:layout_marginLeft="35dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

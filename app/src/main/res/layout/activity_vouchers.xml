@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VouchersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/demo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="demo"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points:1000"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartevoucher"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/text_slidevoucher"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/vouchers"
+            android:visibility="visible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name: Levis - Digital Voucher"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Points:90"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Cart"
+            android:id="@+id/btnaddcartevoucher2"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
